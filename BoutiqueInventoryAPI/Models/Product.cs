@@ -1,0 +1,2 @@
+namespace BoutiqueInventoryAPI.Models;
+public class Product{public int Id{get;set;} public string Name{get;set;}=string.Empty; public string Type{get;set;}=string.Empty; public string? Size{get;set;} public DateTime? ExpirationDate{get;set;} public string? ImagePath{get;set;} public int WarehouseId{get;set;} public Warehouse? Warehouse{get;set;} public string ShelfLocation{get;set;}=string.Empty; public List<ProductCategory> ProductCategories{get;set;}=new();}

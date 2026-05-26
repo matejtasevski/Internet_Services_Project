@@ -1,0 +1,67 @@
+.swagger-ui .topbar {
+    background: linear-gradient(90deg, #3b1f2b, #7a4155);
+}
+
+.swagger-ui .topbar-wrapper img {
+    display: none;
+}
+
+.swagger-ui .topbar-wrapper::before {
+    content: "💎 Boutique Inventory API";
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.swagger-ui .info .title {
+    color: #7a4155;
+    font-size: 42px;
+}
+
+.swagger-ui .info .title small {
+    background: #7a4155 !important;
+}
+
+.swagger-ui .scheme-container {
+    background: #f7f0ec;
+    box-shadow: none;
+}
+
+.swagger-ui .opblock-tag {
+    font-size: 26px;
+    color: #3b1f2b;
+    border-bottom: 2px solid #eadbd5;
+}
+
+.swagger-ui .opblock.opblock-get {
+    background: #f3f8ff;
+    border-color: #6aa8ff;
+}
+
+.swagger-ui .opblock.opblock-post {
+    background: #f2fff7;
+    border-color: #4ccf86;
+}
+
+.swagger-ui .opblock.opblock-put {
+    background: #fff8ed;
+    border-color: #f0a13a;
+}
+
+.swagger-ui .opblock.opblock-delete {
+    background: #fff1f1;
+    border-color: #ff6b6b;
+}
+
+.swagger-ui .btn.execute {
+    background: #7a4155;
+    border-color: #7a4155;
+}
+
+.swagger-ui .btn.execute:hover {
+    background: #5a2e3e;
+}
+
+.swagger-ui .model-box {
+    background: #fff7f4;
+}

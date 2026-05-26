@@ -1,0 +1,76 @@
+{
+  "info": {
+    "name": "Boutique Inventory API SP UI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Home Page",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/"
+      }
+    },
+    {
+      "name": "Get Warehouses",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/warehouses"
+      }
+    },
+    {
+      "name": "Create Warehouse SP",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"New Boutique Warehouse\",\n  \"location\": \"Skopje East\"\n}"
+        },
+        "url": "{{baseUrl}}/api/warehouses"
+      }
+    },
+    {
+      "name": "Create Product SP",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Rose Perfume\",\n  \"type\": \"Perfume\",\n  \"size\": \"50ml\",\n  \"expirationDate\": \"2026-06-15\",\n  \"imagePath\": \"images/rose-perfume.jpg\",\n  \"warehouseId\": 1,\n  \"shelfLocation\": \"Shelf C3\",\n  \"categoryIds\": [\n    1\n  ]\n}"
+        },
+        "url": "{{baseUrl}}/api/products"
+      }
+    },
+    {
+      "name": "Search Products",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/products/search?type=Perfume"
+      }
+    },
+    {
+      "name": "Expiring Soon",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/products/expiring-soon"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://localhost:7000"
+    }
+  ]
+}

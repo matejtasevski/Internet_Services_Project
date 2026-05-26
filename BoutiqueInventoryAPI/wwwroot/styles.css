@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Segoe UI, Arial, sans-serif;
+    background: #f5f0ec;
+    color: #2b2523;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: linear-gradient(180deg, #3b1f2b, #7a4155);
+    color: white;
+    padding: 25px;
+}
+
+.sidebar h2 {
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.18);
+}
+
+main {
+    margin-left: 300px;
+    padding: 35px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #7a4155, #d49a89);
+    color: white;
+    padding: 40px;
+    border-radius: 28px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 0 0 15px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin: 28px 0;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin: 0;
+    color: #7a4155;
+}
+
+.card p {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 15px 0 0;
+}
+
+.warning {
+    border-left: 8px solid #ff9f43;
+}
+
+.panel {
+    background: white;
+    padding: 28px;
+    border-radius: 22px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: #7a4155;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #5a2e3e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+}
+
+th {
+    background: #f0e2dc;
+    text-align: left;
+    padding: 14px;
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-grid {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    min-width: 220px;
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}

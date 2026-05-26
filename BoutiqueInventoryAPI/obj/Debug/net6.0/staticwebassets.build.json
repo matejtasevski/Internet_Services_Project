@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "LoQ/YSmmi5tTt95AbC9mROb+W27UGdAffd9v3IY5t4s=",
+  "Source": "BoutiqueInventoryAPI",
+  "BasePath": "_content/BoutiqueInventoryAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BoutiqueInventoryAPI\\wwwroot",
+      "Source": "BoutiqueInventoryAPI",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "BasePath": "_content/BoutiqueInventoryAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\app.js",
+      "SourceId": "BoutiqueInventoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "BasePath": "_content/BoutiqueInventoryAPI",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\index.html",
+      "SourceId": "BoutiqueInventoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "BasePath": "_content/BoutiqueInventoryAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\styles.css",
+      "SourceId": "BoutiqueInventoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "BasePath": "_content/BoutiqueInventoryAPI",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\swagger-custom.css",
+      "SourceId": "BoutiqueInventoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "BasePath": "_content/BoutiqueInventoryAPI",
+      "RelativePath": "swagger-custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-custom.css"
+    }
+  ]
+}

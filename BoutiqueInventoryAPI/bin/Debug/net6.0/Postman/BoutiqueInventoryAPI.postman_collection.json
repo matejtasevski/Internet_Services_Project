@@ -1,0 +1,93 @@
+{
+  "info": {
+    "name": "Boutique Inventory API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Warehouses",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/warehouses"
+      }
+    },
+    {
+      "name": "Create Warehouse",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Main Warehouse\",\n  \"location\": \"Skopje Center\"\n}"
+        },
+        "url": "{{baseUrl}}/api/warehouses"
+      }
+    },
+    {
+      "name": "Create Category",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Perfumes\"\n}"
+        },
+        "url": "{{baseUrl}}/api/categories"
+      }
+    },
+    {
+      "name": "Create Product",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Luxury Perfume\",\n  \"type\": \"Perfume\",\n  \"size\": \"100ml\",\n  \"expirationDate\": \"2026-12-15\",\n  \"imagePath\": \"images/perfume1.jpg\",\n  \"warehouseId\": 1,\n  \"shelfLocation\": \"Shelf A1\",\n  \"categoryIds\": [\n    1\n  ]\n}"
+        },
+        "url": "{{baseUrl}}/api/products"
+      }
+    },
+    {
+      "name": "Search Products",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/products/search?type=Perfume&size=100ml&warehouseId=1"
+      }
+    },
+    {
+      "name": "Expiring Soon",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/products/expiring-soon"
+      }
+    },
+    {
+      "name": "Deactivate Warehouse",
+      "request": {
+        "method": "PUT",
+        "url": "{{baseUrl}}/api/warehouses/1/deactivate"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://localhost:7000"
+    }
+  ]
+}

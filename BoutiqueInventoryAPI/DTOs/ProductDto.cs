@@ -1,0 +1,3 @@
+namespace BoutiqueInventoryAPI.DTOs;
+public class ProductCreateDto{public string Name{get;set;}=string.Empty; public string Type{get;set;}=string.Empty; public string? Size{get;set;} public DateTime? ExpirationDate{get;set;} public string? ImagePath{get;set;} public int WarehouseId{get;set;} public string ShelfLocation{get;set;}=string.Empty; public List<int> CategoryIds{get;set;}=new();}
+public class ProductUpdateDto{public string Name{get;set;}=string.Empty; public string Type{get;set;}=string.Empty; public string? Size{get;set;} public DateTime? ExpirationDate{get;set;} public string? ImagePath{get;set;} public int WarehouseId{get;set;} public string ShelfLocation{get;set;}=string.Empty; public List<int> CategoryIds{get;set;}=new();}

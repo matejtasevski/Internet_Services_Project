@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique Inventory & Warehouse Management API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>💎 Boutique</h2>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#products">Products</a>
+    <a href="#warehouses">Warehouses</a>
+    <a href="#categories">Categories</a>
+    <a href="/swagger">Swagger API</a>
+</div>
+
+<main>
+    <section class="hero" id="dashboard">
+        <h1>Boutique Inventory & Warehouse Management API</h1>
+        <p>Manage products, warehouses, categories, locations, and expiration monitoring.</p>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <h3>Total Products</h3>
+            <p id="totalProducts">0</p>
+        </div>
+        <div class="card">
+            <h3>Warehouses</h3>
+            <p id="totalWarehouses">0</p>
+        </div>
+        <div class="card">
+            <h3>Categories</h3>
+            <p id="totalCategories">0</p>
+        </div>
+        <div class="card warning">
+            <h3>Expiring Soon</h3>
+            <p id="expiringProducts">0</p>
+        </div>
+    </section>
+
+    <section class="panel" id="products">
+        <div class="panel-header">
+            <h2>Products</h2>
+            <button onclick="loadProducts()">Refresh</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Size</th>
+                    <th>Warehouse</th>
+                    <th>Location</th>
+                    <th>Expiration</th>
+                </tr>
+            </thead>
+            <tbody id="productsTable"></tbody>
+        </table>
+    </section>
+
+    <section class="panel" id="warehouses">
+        <h2>Add Warehouse</h2>
+        <div class="form-grid">
+            <input id="warehouseName" placeholder="Warehouse name">
+            <input id="warehouseLocation" placeholder="Location">
+            <button onclick="createWarehouse()">Add Warehouse</button>
+        </div>
+    </section>
+
+    <section class="panel" id="categories">
+        <h2>Add Category</h2>
+        <div class="form-grid">
+            <input id="categoryName" placeholder="Category name">
+            <button onclick="createCategory()">Add Category</button>
+        </div>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

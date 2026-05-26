@@ -1,0 +1,2 @@
+using BoutiqueInventoryAPI.DTOs; namespace BoutiqueInventoryAPI.Services;
+public interface IStoredProcedureService{Task<int> InsertWarehouseAsync(WarehouseCreateDto dto); Task UpdateWarehouseAsync(int id,WarehouseUpdateDto dto); Task<int> InsertCategoryAsync(CategoryCreateDto dto); Task UpdateCategoryAsync(int id,CategoryUpdateDto dto); Task<int> InsertProductAsync(ProductCreateDto dto); Task UpdateProductAsync(int id,ProductUpdateDto dto);}
