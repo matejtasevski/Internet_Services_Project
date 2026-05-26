@@ -13,6 +13,7 @@
     <a href="#products">Products</a>
     <a href="#warehouses">Warehouses</a>
     <a href="#categories">Categories</a>
+	<a href="#add-product">Add Product</a>
     <a href="/swagger">Swagger API</a>
 </div>
 
@@ -78,6 +79,31 @@
             <button onclick="createCategory()">Add Category</button>
         </div>
     </section>
+	
+</section>
+
+<section class="panel" id="add-product">
+    <h2>Add Product</h2>
+
+    <div class="form-grid">
+        <input id="productName" placeholder="Product name">
+        <input id="productType" placeholder="Type e.g. Perfume">
+        <input id="productSize" placeholder="Size e.g. 100ml">
+        <input id="productExpiration" type="date">
+        <input id="productImagePath"
+               placeholder="Image path e.g. images/perfume.jpg">
+        <input id="productWarehouseId"
+               type="number"
+               placeholder="Warehouse ID">
+        <input id="productShelfLocation"
+               placeholder="Shelf location e.g. Shelf A1">
+        <input id="productCategoryIds"
+               placeholder="Category IDs e.g. 1,2">
+        <button onclick="createProduct()">
+            Add Product
+        </button>
+    </div>
+</section>
 </main>
 
 <script src="app.js"></script>

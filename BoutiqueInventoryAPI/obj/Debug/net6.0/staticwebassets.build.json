@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LoQ/YSmmi5tTt95AbC9mROb+W27UGdAffd9v3IY5t4s=",
+  "Hash": "VwV6qSw2OGPzwBIM05l/CIdUKgq5kJUsmefNuKG8Iuc=",
   "Source": "BoutiqueInventoryAPI",
   "BasePath": "_content/BoutiqueInventoryAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BoutiqueInventoryAPI\\wwwroot",
       "Source": "BoutiqueInventoryAPI",
-      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\",
       "BasePath": "_content/BoutiqueInventoryAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\app.js",
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\app.js",
       "SourceId": "BoutiqueInventoryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\",
       "BasePath": "_content/BoutiqueInventoryAPI",
       "RelativePath": "app.js",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\app.js"
     },
     {
-      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\index.html",
       "SourceId": "BoutiqueInventoryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\",
       "BasePath": "_content/BoutiqueInventoryAPI",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\styles.css",
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\styles.css",
       "SourceId": "BoutiqueInventoryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\",
       "BasePath": "_content/BoutiqueInventoryAPI",
       "RelativePath": "styles.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\swagger-custom.css",
+      "Identity": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\swagger-custom.css",
       "SourceId": "BoutiqueInventoryAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\wwwroot\\",
       "BasePath": "_content/BoutiqueInventoryAPI",
       "RelativePath": "swagger-custom.css",
       "AssetKind": "All",

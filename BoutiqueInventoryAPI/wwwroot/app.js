@@ -61,5 +61,38 @@ async function createCategory() {
     alert("Category added.");
     loadDashboard();
 }
+async function createProduct() {
+    const categoryIdsText = document.getElementById("productCategoryIds").value;
 
+    const categoryIds = categoryIdsText
+        .split(",")
+        .map(x => parseInt(x.trim()))
+        .filter(x => !isNaN(x));
+
+    const product = {
+        name: document.getElementById("productName").value,
+        type: document.getElementById("productType").value,
+        size: document.getElementById("productSize").value,
+        expirationDate: document.getElementById("productExpiration").value || null,
+        imagePath: document.getElementById("productImagePath").value,
+        warehouseId: parseInt(document.getElementById("productWarehouseId").value),
+        shelfLocation: document.getElementById("productShelfLocation").value,
+        categoryIds: categoryIds
+    };
+
+    const response = await fetch("/api/products", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(product)
+    });
+
+    if (response.ok) {
+        alert("Product added successfully.");
+        loadDashboard();
+    } else {
+        alert("Error adding product.");
+    }
+}
 loadDashboard();

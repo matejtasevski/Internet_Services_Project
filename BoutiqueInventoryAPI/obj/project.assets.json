@@ -2445,11 +2445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\BoutiqueInventoryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\BoutiqueInventoryAPI.csproj",
       "projectName": "BoutiqueInventoryAPI",
-      "projectPath": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\BoutiqueInventoryAPI.csproj",
+      "projectPath": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\BoutiqueInventoryAPI.csproj",
       "packagesPath": "C:\\Users\\JBOSKOVA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\obj\\",
+      "outputPath": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

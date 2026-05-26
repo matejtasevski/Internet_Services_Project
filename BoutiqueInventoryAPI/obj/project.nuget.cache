@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ljRAIAhpnuIP04yliLj/Roy++gM8/MxdqQvqbJbjnoT51sxjribyWBZ0J/eld0/+zg+zCKOBTk1Zjk3/LImQyA==",
+  "dgSpecHash": "54UuZo7oXlEzXdCUX8XySNmyQL7kHQs0er6c1mAvtzgvLBuKNUKrzoOlUy7kizQrvof5fpnU+nbWk5EFZFy0QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\BoutiqueInventoryAPI\\BoutiqueInventoryAPI.csproj",
+  "projectFilePath": "C:\\Users\\JBOSKOVA\\Desktop\\UCAS\\VI - Internet services\\Internet_Services_Project\\BoutiqueInventoryAPI\\BoutiqueInventoryAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JBOSKOVA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\JBOSKOVA\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
